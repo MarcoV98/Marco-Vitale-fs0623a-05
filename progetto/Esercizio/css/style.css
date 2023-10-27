@@ -1,0 +1,169 @@
+body {
+    background-color: white;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header div {
+    background-color: black;
+    text-align: center;
+    padding: 2em;
+}
+
+#banner {
+    background-image: url(/Esercizio/images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    color: #25a2c3;
+    font-family:'Montserrat', sans-serif;
+    line-height: 2.7rem;
+    padding: 4rem 1rem 2rem 1rem;
+}
+
+h1 + p {
+    margin: 0;
+    padding: 0 1.5rem 2rem 1.5rem;
+    line-height: 2.5rem;
+}
+
+input {
+    margin: 0;
+    margin-bottom: 2rem;
+    border: 0;
+    padding: 1rem 1.7rem;
+    background-color: #f04c2f;
+    color: white;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 5%;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #25a2c3;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    margin: 1rem;
+}
+
+#sct1 {
+    margin-top: 1.5rem;
+    padding: 1.8rem;
+}
+
+#sct1 img {
+    border-radius: 50%;
+    padding: 1.3rem;
+}
+
+#sct1 h2:nth-of-type(even) {
+    margin-top: 3rem;
+}
+
+#sct-red {
+    background-color: #e22d0e;
+    color: white;
+}
+
+
+#sct-red h2 {
+    color: white;
+    padding-top: 2em;
+    font-size: 2.2rem;
+}
+
+#sct-red p {
+    margin: 2rem 0 2rem 0;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-style: normal;
+}
+
+blockquote cite:nth-of-type(2) {
+    padding-bottom: 2.5rem;
+}
+
+#sct2 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.image-sct2 div {
+    height: 100%;
+    width: 83%;
+    padding: 0;
+    margin-left: 2em;
+    margin-bottom: 2.5em;
+    border: 1px solid lightgray;
+}
+
+.image-sct2 p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-bottom: 2em;
+}
+
+
+.image-sct2 p:first-child {
+    font-family:'Montserrat', sans-serif;
+    color: #25a2c3;
+}
+
+footer {
+    background-color:  #25a2c3;
+    color: white;
+}
+
+
+footer h2{
+    color: white;
+    font-size: 2.3rem;
+    padding: 3rem 0 1.8rem 0;
+}
+
+footer img {
+    display: inline-block;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer address {
+    display: inline-block;
+}
+
+hr {
+    display: none;
+}
+
+#address-border{
+    padding-bottom: 2.5em;
+    border-bottom: white solid 2px;
+}
+
+footer p  {
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 2.5rem;
+}
